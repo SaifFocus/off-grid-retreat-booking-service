@@ -1,16 +1,16 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, TreePine } from "lucide-react";
-import heroImage from "@/assets/hero-camping.jpg";
-import forestImage from "@/assets/spot-forest.jpg";
-import lakeImage from "@/assets/spot-lake.jpg";
-import meadowImage from "@/assets/spot-meadow.jpg";
+import heroImage from "@/assets/hero-scandinavia.jpg";
+import spotSwedenForest from "@/assets/spot-sweden-forest.jpg";
+import spotNorwayFjord from "@/assets/spot-norway-fjord.jpg";
+import spotFinlandLake from "@/assets/spot-finland-lake.jpg";
 
 const slides = [
-  { image: heroImage, alt: "Off-grid camping in nature" },
-  { image: forestImage, alt: "Forest camping spot" },
-  { image: lakeImage, alt: "Lakeside retreat" },
-  { image: meadowImage, alt: "Meadow camping experience" },
+  { image: heroImage, alt: "Scandinavian glamping by a lake at sunset" },
+  { image: spotSwedenForest, alt: "Swedish forest glamping retreat" },
+  { image: spotNorwayFjord, alt: "Norwegian fjord glamping camp" },
+  { image: spotFinlandLake, alt: "Finnish lakeland hideaway" },
 ];
 
 const SLIDE_DURATION = 5000;
