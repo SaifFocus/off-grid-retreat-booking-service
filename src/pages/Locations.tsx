@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { MapPin, Star, ArrowRight, ArrowUpDown } from "lucide-react";
-import bannerImage from "@/assets/detail-forest-1.jpg";
+import bannerImage from "@/assets/hero-scandinavia.jpg";
 import { locations } from "@/data/locations";
 
 type SortOption = "price-low" | "price-high" | "rating";
@@ -126,7 +126,7 @@ const Locations = () => {
                       </div>
                       <div className="flex items-center justify-between">
                         <div>
-                          <span className="text-xl font-light text-foreground">${location.price}</span>
+                          <span className="text-xl font-light text-foreground">€{location.price}</span>
                           <span className="text-muted-foreground text-xs font-light">/night</span>
                         </div>
                         <Button variant="ghost" size="sm" className="text-primary hover:text-primary/80 text-xs font-light">

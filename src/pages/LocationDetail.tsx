@@ -284,7 +284,7 @@ const LocationDetail = () => {
                 <Card className="p-8 border border-border shadow-soft">
                   <div className="mb-8">
                     <div className="flex items-baseline gap-2 mb-2">
-                      <span className="text-2xl font-light">${location.price}</span>
+                      <span className="text-2xl font-light">€{location.price}</span>
                       <span className="text-xs text-muted-foreground font-light">/ night</span>
                     </div>
                     <div className="flex items-center gap-1 text-xs">

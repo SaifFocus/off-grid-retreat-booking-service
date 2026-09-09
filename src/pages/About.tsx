@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Leaf, Heart, Compass, Mountain, Users, TreePine } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import bannerImage from "@/assets/detail-lake-2.jpg";
+import bannerImage from "@/assets/spot-norway-fjord.jpg";
 
 const values = [
   {
@@ -74,19 +74,21 @@ const About = () => {
               
               <div className="space-y-6 text-muted-foreground font-light leading-relaxed">
                 <p>
-                  Wild Haven was born from a simple observation: in our hyper-connected world, true rest has become 
-                  increasingly rare. We watched as screens replaced sunsets, notifications drowned out birdsong, 
-                  and the constant hum of digital life left people feeling more disconnected than ever.
+                  Wild Haven began on the shores of a Swedish lake, where the midnight sun refused to set and the 
+                  only notifications were bird calls and wind in the pines. We saw how Scandinavian nature — with 
+                  its vast forests, silent lakes, and dramatic coastlines — had a way of slowing people down in a 
+                  way nothing else could.
                 </p>
                 <p>
-                  Founded in 2019, we set out to create spaces where people could step away from the noise and 
-                  rediscover what it means to be truly present. Our retreats aren't about escaping life—they're 
-                  about returning to it, in its most essential and beautiful form.
+                  Founded in 2019, we set out to share that feeling. We searched Sweden, Norway, Denmark, and Finland 
+                  for places where the landscape itself becomes the host: a Värmland forest, a Lofoten fjord, a 
+                  Bornholm cliff, a Saimaa island, a Lapland aurora dome, a Telemark river bend.
                 </p>
                 <p>
-                  Each of our locations has been carefully selected not just for its natural beauty, but for its 
-                  ability to facilitate genuine restoration. From ancient forests to pristine lakeshores, every 
-                  Wild Haven retreat offers a doorway back to the rhythms that sustained humanity for millennia.
+                  Each retreat is designed around the Nordic idea of friluftsliv — open-air living. It's not about 
+                  roughing it; it's about being comfortable enough to stay present. Our canvas lodges, geodesic domes, 
+                  and lakeside saunas let guests experience Scandinavia's wild beauty without sacrificing warmth, 
+                  safety, or soul.
                 </p>
               </div>
             </motion.div>
